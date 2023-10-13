@@ -13,7 +13,6 @@
 
 img {
   max-width: 100%;
-  width: 1400px;
 }
 
 .extra-bold {
@@ -25,10 +24,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
+  gap: 5rem;
   padding: 2rem 6rem;
 }
-
 .central-section:nth-child(odd) {
   display: flex;
   flex-direction: row-reverse;
@@ -46,10 +44,75 @@ img {
 
 h2 {
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 h1 {
   font-size: 40px;
   font-weight: 900;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+p {
+  font-weight: 200;
+}
+
+.bottoni {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  color: white;
+  border-radius: 28px;
+  font-size: 20px;
+  background-color: #5865f2;
+  border: none;
+}
+
+#botton {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.8rem;
+}
+
+#immaginegrande {
+  width: 1200px;
+  margin-top: -4rem;
+}
+
+#download {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+#footer-section {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  padding: 2.5em;
+  background-color: #23272a;
+}
+
+#footer-section * {
+  list-style: none;
+  text-decoration: none;
+}
+
+#footer-section ul {
+  color: #5865f2;
+  font-size: 16px;
+}
+
+#footer-section ul li {
+  padding-top: 20px;
+}
+
+#footer-section ul a {
+  color: white;
+  font-size: 16px;
 }
