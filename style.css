@@ -9,6 +9,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
 img {
@@ -96,7 +98,7 @@ p {
   display: flex;
   justify-content: center;
   gap: 7rem;
-  padding: 2.5em;
+  padding: 3em;
   background-color: #23272a;
 }
 
@@ -107,16 +109,16 @@ p {
 
 #footer-section ul {
   color: #5865f2;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 #footer-section ul li {
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 #footer-section ul a {
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -129,7 +131,7 @@ p {
   background-color: #23272a;
   padding: 40px 30px;
   border-top: 1px solid #5865f2;
-  margin: 0 3em;
+  margin: 0 9em;
 }
 
 footer {
@@ -162,4 +164,57 @@ select {
   padding-right: 10px;
   margin: 4px 5px;
   width: 35px;
+}
+
+header {
+  max-width: 100%;
+  width: 100%;
+  background-color: #404eed;
+  padding: 1em 3em;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 200px auto 200px;
+  align-items: center;
+  width: auto;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+}
+header nav ul a {
+  padding: 0 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#logohead {
+  display: flex;
+  margin-left: auto;
+}
+
+#texthead {
+  display: block;
+  flex-direction: column;
+  padding-top: 5em;
+}
+
+#texthead,
+h1,
+p {
+  text-align: center;
+  color: white;
+}
+
+#login {
+  background-color: #FFFFFF;
+  border: none;
+  color: black;
+  border-radius: 40px;
+  padding: 10px 16px;
+  font-weight: 500;
+  cursor: pointer;
 }
