@@ -181,6 +181,7 @@ header {
   padding: 1em 5em;
   background-image: url(./img/hero-bg.svg);
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -223,6 +224,7 @@ header nav ul a:hover {
   color: white;
   width: 900px;
   margin: auto;
+  position: relative;
 }
 
 #texthead div {
@@ -239,7 +241,7 @@ header nav ul a:hover {
   cursor: pointer;
 }
 .buttoncont {
-  padding: 20px 20px;
+  padding: 95px 35px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -271,14 +273,9 @@ header nav ul a:hover {
   border: none;
   cursor: pointer;
 }
-
-.side-img {
+.img1 {
   position: absolute;
-}
-
-.overlay {
-  width: 100%;
-  height: 300px;
-  display: flex;
-  justify-content: space-between;
+  bottom: -17px;
+  right: 830px;
+  z-index: 2;
 }
