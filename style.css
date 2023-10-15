@@ -77,6 +77,11 @@ p {
   background-color: #5865f2;
   border: none;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.bottoni:hover {
+  background-color: #8891ee;
 }
 
 #botton {
@@ -198,6 +203,10 @@ header nav ul a {
   font-weight: 600;
 }
 
+header nav ul a:hover {
+  text-decoration: underline;
+}
+
 #logohead {
   display: flex;
   justify-content: center;
@@ -208,9 +217,16 @@ header nav ul a {
 #texthead {
   display: flex;
   flex-direction: column;
-  padding-top: 8em;
+  align-content: center;
+  padding-top: 6em;
   text-align: center;
   color: white;
+  width: 900px;
+  margin: auto;
+}
+
+#texthead div {
+  padding-top: 30px;
 }
 
 #login {
@@ -254,4 +270,15 @@ header nav ul a {
   background-color: black;
   border: none;
   cursor: pointer;
+}
+
+.side-img {
+  position: absolute;
+}
+
+.overlay {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
 }
