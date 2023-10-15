@@ -50,8 +50,10 @@ h2 {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 900;
+  text-transform: uppercase;
+  font-family: "raleway";
 }
 
 h3 {
@@ -168,15 +170,20 @@ select {
 
 header {
   max-width: 100%;
+  min-height: 100%;
   width: 100%;
   background-color: #404eed;
-  padding: 1em 3em;
+  padding: 1em 5em;
+  background-image: url(./img/hero-bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 nav {
   display: grid;
   grid-template-columns: 200px auto 200px;
   align-items: center;
+  justify-items: center;
   width: auto;
 }
 
@@ -185,36 +192,66 @@ header nav ul {
   justify-content: center;
 }
 header nav ul a {
-  padding: 0 10px;
+  padding: 0 20px;
   color: white;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 #logohead {
   display: flex;
-  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 #texthead {
-  display: block;
+  display: flex;
   flex-direction: column;
-  padding-top: 5em;
-}
-
-#texthead,
-h1,
-p {
+  padding-top: 8em;
   text-align: center;
   color: white;
 }
 
 #login {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: none;
   color: black;
   border-radius: 40px;
   padding: 10px 16px;
   font-weight: 500;
+  cursor: pointer;
+}
+.buttoncont {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.btnhead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  color: black;
+  border-radius: 28px;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btnhead1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  color: white;
+  border-radius: 28px;
+  font-size: 20px;
+  background-color: black;
+  border: none;
   cursor: pointer;
 }
