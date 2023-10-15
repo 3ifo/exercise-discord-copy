@@ -82,7 +82,8 @@ p {
 }
 
 .bottoni:hover {
-  background-color: #8891ee;
+  box-shadow: 1px 4px 2px 4px rgba(85, 84, 84, 0.26);
+  background-color: #5865f2c2;
 }
 
 #botton {
@@ -262,6 +263,12 @@ header nav ul a:hover {
   background-color: white;
   border: none;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btnhead:hover {
+  box-shadow: 1px 4px 2px 4px rgba(85, 84, 84, 0.289);
+  color: #404eed;
 }
 
 .btnhead1 {
@@ -275,6 +282,12 @@ header nav ul a:hover {
   background-color: black;
   border: none;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btnhead1:hover {
+  box-shadow: 1px 4px 2px 4px rgba(85, 84, 84, 0.341);
+  background-color: #23272a;
 }
 
 #perdio {
