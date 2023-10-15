@@ -54,6 +54,7 @@ h1 {
   font-weight: 900;
   text-transform: uppercase;
   font-family: "raleway";
+  font-weight: bold;
 }
 
 h3 {
@@ -63,7 +64,7 @@ h3 {
 
 p {
   font-weight: 300;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .bottoni {
@@ -174,8 +175,8 @@ select {
 }
 
 header {
-  max-width: 100%;
   min-height: 100%;
+  min-width: 100%;
   width: 100%;
   background-color: #404eed;
   padding: 1em 5em;
@@ -183,6 +184,8 @@ header {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+  overflow-x: hidden;
 }
 
 nav {
@@ -241,7 +244,7 @@ header nav ul a:hover {
   cursor: pointer;
 }
 .buttoncont {
-  padding: 95px 35px;
+  padding: 105px 35px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -273,9 +276,28 @@ header nav ul a:hover {
   border: none;
   cursor: pointer;
 }
+
+#perdio {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 0;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 .img1 {
   position: absolute;
-  bottom: -17px;
-  right: 830px;
-  z-index: 2;
+  top: 307px;
+  left: -200px;
+  z-index: 1;
+}
+
+.img2 {
+  position: absolute;
+  top: 298px;
+  right: -170px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
